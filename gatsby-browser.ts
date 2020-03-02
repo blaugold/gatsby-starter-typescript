@@ -5,3 +5,7 @@
  */
 
 // You can delete this file if you're not using it
+
+import { GatsbyBrowser } from 'gatsby';
+
+module.exports = {} as GatsbyBrowser;

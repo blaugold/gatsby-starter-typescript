@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "outDir": "./ts-out",
+    "rootDir": "./",
+    "sourceMap": true,
+    "inlineSources": true,
+    "target": "ES2015",
+    "moduleResolution": "Node",
+    "jsx": "preserve",
+    "esModuleInterop": true,
+    "strict": true,
+    "noImplicitAny": false,
+    "types": [
+      "node"
+    ],
+    "lib": [
+      "DOM",
+      "ES2015"
+    ]
+  }
+}

@@ -1,28 +1,38 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "gatsby-starter-typescript",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "A simple starter to develop with gatsby + typescript",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Gabriel Terwesten <gabriel@terwesten.net>",
   "dependencies": {
+    "@types/node": "^13.7.7",
+    "@types/react": "^16.9.23",
+    "@types/react-dom": "^16.9.5",
+    "@types/react-helmet": "^5.0.15",
     "gatsby": "^2.19.7",
     "gatsby-image": "^2.2.39",
+    "gatsby-plugin-graphql-codegen": "^2.2.3",
     "gatsby-plugin-manifest": "^2.2.39",
     "gatsby-plugin-offline": "^3.0.32",
     "gatsby-plugin-react-helmet": "^3.1.21",
     "gatsby-plugin-sharp": "^2.4.3",
+    "gatsby-plugin-ts-config": "^0.1.1",
+    "gatsby-plugin-typescript": "^2.2.0",
+    "gatsby-plugin-typescript-checker": "^1.1.1",
     "gatsby-source-filesystem": "^2.1.46",
     "gatsby-transformer-sharp": "^2.3.13",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
-    "react-helmet": "^5.2.1"
+    "react-helmet": "^5.2.1",
+    "typescript": "^3.8.3"
   },
   "devDependencies": {
     "prettier": "^1.19.1"
   },
   "keywords": [
-    "gatsby"
+    "gatsby",
+    "typescript"
   ],
   "license": "MIT",
   "scripts": {
@@ -36,7 +46,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/blaugold/gatsby-starter-typescript.git"
   },
   "bugs": {
     "url": "https://github.com/gatsbyjs/gatsby/issues"

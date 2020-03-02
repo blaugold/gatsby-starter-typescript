@@ -5,3 +5,7 @@
  */
 
 // You can delete this file if you're not using it
+
+import { GatsbyNode } from 'gatsby';
+
+module.exports = {} as GatsbyNode;
